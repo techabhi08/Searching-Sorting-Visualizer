@@ -1,0 +1,1 @@
+### This folder contain all the extra bits of dynamic content that make the website for user easy to visualize
