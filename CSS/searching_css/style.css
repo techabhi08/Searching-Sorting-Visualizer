@@ -1,0 +1,78 @@
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+
+
+
+.nav{
+  display: grid;
+  grid-template-columns:  1fr 3fr 1fr;
+  font-size: 150%;
+  text-align: center;
+  font-weight: 500;
+  background-color: #172774;
+  color: #F8F8F8;
+  
+}
+
+.b1, .b2, .b3, .b4, .b5, .b6{
+  border-radius: 30px;
+  font-size: 20px;
+  color: #172774;
+  margin: 10px;
+}
+
+
+.agen{
+  padding: 2% 0;
+}
+
+.nav-heading{
+  font-size: 32px;
+  font-weight: 900;
+  padding: 1.5% 0;
+  margin: 2% 0;
+}
+
+.asize{
+  padding-top: 18%;
+  font-size: 80%;
+}
+
+.aspeed{
+  padding-top: 18%;
+  font-size: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
