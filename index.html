@@ -1,15 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./CSS/style.css" />
-    <title></title>
-  </head>
-  <body>
-    <h1>Searching-Sorting-Visualizer</h1>
+<head>
+    <meta charset="UTF-8">
+    <title>Sorting Visualiser</title>
+    <link rel="stylesheet" href="./Website/styles.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <div class="rightSide">
+            <div class="btns dayNight">
+                <ion-icon name="moon-outline"></ion-icon>
+                <ion-icon name="sunny-outline"></ion-icon>
+            </div>
+            <div class="btns menuToggle">
+                <ion-icon name="menu-outline"></ion-icon>
+                <ion-icon name="close-outline"></ion-icon>
+            </div>
+        </div>
+    </header>
+    <section class="main">
+        <video src="./Website/video.mp4" autoplay loop muted type="mp4"></video>
+        <img src="./Website/mask.jpg" class="mask">
+        <h2>Visualiser</h2>
+        <p class="copyrightText"> &#169 Team AMAHD - 2021</p>
+        <ul class="sci">
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+    </section>
 
-    <script src="./JS/main.js"></script>
-  </body>
+    <!-- Sidebar Navigation -->
+    <ul class="navigation">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="./sorting.html">Sorting</a></li>
+        <li><a href="./searching.html">Searching</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ul>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        let dayNight = document.querySelector('.dayNight')
+        let menuToggle = document.querySelector('.menuToggle')
+        let body = document.querySelector('body')
+        let navigation = document.querySelector('.navigation')
+
+        dayNight.onclick = function(){
+            body.classList.toggle('dark')
+            dayNight.classList.toggle('active')
+        }
+
+        menuToggle.onclick = function(){
+            menuToggle.classList.toggle('active')
+            navigation.classList.toggle('active')
+        }
+    </script>
+</body>
 </html>

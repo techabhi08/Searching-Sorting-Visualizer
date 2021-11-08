@@ -81,10 +81,10 @@ function runalgo() {
     case "Quick":
       Quick();
       break;
-    case "LS":
+    case "Linear":
       Linear_search();
       break;
-    case "BS":
+    case "Binary":
       Binary_search();
       break;
   }
