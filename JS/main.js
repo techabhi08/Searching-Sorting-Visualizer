@@ -17,7 +17,6 @@ inp_gen.addEventListener("click", generate_array);
 inp_as.addEventListener("input", update_array_size);
 
 function generate_array() {
-  // console.log("Clicked");
   cont.innerHTML = "";
 
   for (var i = 0; i < array_size; i++) {
