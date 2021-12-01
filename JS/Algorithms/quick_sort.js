@@ -1,10 +1,3 @@
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
-
 function Quick()
 {
     c_delay=0;
@@ -22,7 +15,6 @@ function quick_partition (start, end)
 
         for(var j =start + 1; j <= end ; j++ )
         {
-            //re-arrange the array by putting elements which are less than pivot on one side and which are greater that on other.
             if (div_sizes[ j ] < piv)
             {
                 div_update(divs[j],div_sizes[j],"yellow");//Color update
@@ -71,10 +63,3 @@ function quick_sort (start, end )
         quick_sort (piv_pos +1, end) ;//sorts the right side of pivot.
     }
  }
-
-/*
-    *****************
-    DONE BY:-   TUMMALA KETHAN
-    E-MAIL:-    tummala.kethan@gmail.com
-    *****************
-*/
