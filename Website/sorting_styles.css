@@ -60,6 +60,13 @@ body {
   font-weight: 600;
 }
 
+.exchange{
+  position: absolute;
+  display: flex;
+  top: 20px;
+  right: 25px;
+}
+
 .bgen {
   color: #e5e9e8;
   background-color: #000000;

@@ -58,6 +58,14 @@ body {
   font-size: 90%;
   font-weight: 600;
 }
+
+.exchange{
+  position: absolute;
+  display: flex;
+  top: 20px;
+  right: 25px;
+}
+
 #s_target {
   display: none;
 }
