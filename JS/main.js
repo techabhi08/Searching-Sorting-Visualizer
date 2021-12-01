@@ -52,7 +52,7 @@ function disable_buttons() {
   for (var i = 0; i < butts_algos.length; i++) {
     butts_algos[i].classList = [];
     butts_algos[i].classList.add("butt_locked");
-
+    butts_algos[i].classList.add(`b${i+1}`);
     butts_algos[i].disabled = true;
     inp_as.disabled = true;
     inp_gen.disabled = true;

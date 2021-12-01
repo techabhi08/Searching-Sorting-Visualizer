@@ -58,7 +58,8 @@ function enable_buttons() {
   window.setTimeout(function () {
     for (var i = 0; i < butts_algos.length; i++) {
       butts_algos[i].classList = [];
-      butts_algos[i].classList.add("butt_unselected");
+      // butts_algos[i].classList.add("butt_unselected");
+      butts_algos[i].classList.add(`b${i+1}`);
 
       butts_algos[i].disabled = false;
       inp_as.disabled = false;
