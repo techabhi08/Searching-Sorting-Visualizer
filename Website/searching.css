@@ -23,9 +23,9 @@ body {
 .b6 {
   border-radius: 30px;
   font-size: 20px;
-  color: #4baea6;
+  color: #fff;
   margin: 10px;
-  background-color: #1a5551;
+  background-color: #080f0f;
 }
 
 .agen {
@@ -34,6 +34,7 @@ body {
 }
 
 .nav-heading {
+  color: black;
   font-size: 32px;
   font-weight: 900;
   padding: 1.5% 0;
@@ -61,8 +62,8 @@ body {
   display: none;
 }
 .bgen {
-  color: #4baea6;
-  background-color: #1a5551;
+  color: #e5e9e8;
+  background-color: #000000;
 }
 .array_section {
   display: grid;
