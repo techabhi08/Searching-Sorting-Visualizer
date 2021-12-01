@@ -8,13 +8,13 @@
 }
 
 :root {
-  --black: #333;
+  --black: #000;
   --white: #fff;
 }
 
 .dark {
   --black: #fff;
-  --white: #333;
+  --white: #000;
 }
 
 header {
@@ -220,7 +220,7 @@ header .logo {
   height: 100%;
   width: 100%;
   border-left: 2px solid var(--black);
-  background: #fff;
+  background: var(--white);
   animation: typing 1.5s steps(7) infinite;
 }
 
