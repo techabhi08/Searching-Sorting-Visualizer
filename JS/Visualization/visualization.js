@@ -58,13 +58,24 @@ function enable_buttons() {
   window.setTimeout(function () {
     for (var i = 0; i < butts_algos.length; i++) {
       butts_algos[i].classList = [];
+<<<<<<< HEAD
       butts_algos[i].classList.add("butt_unselected");
+=======
+      // butts_algos[i].classList.add("butt_unselected");
+      butts_algos[i].classList.add(`b${i+1}`);
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540
 
       butts_algos[i].disabled = false;
       inp_as.disabled = false;
       inp_gen.disabled = false;
       inp_aspeed.disabled = false;
+<<<<<<< HEAD
       inp_target.disabled = false;
     }
   }, (c_delay += delay_time));
 }
+=======
+    }
+  }, (c_delay += delay_time));
+}
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540

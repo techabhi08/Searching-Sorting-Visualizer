@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sorting Visualizer</title>
+
+    <link rel="stylesheet" href="./Website/sorting_styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="nav">
+        <div class="asize">
+          <div class="backPage">
+            <a href="index.html">
+              <svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M2.117 12l7.527 6.235-.644.765-9-7.521 9-7.479.645.764-7.529 6.236h21.884v1h-21.883z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p>Size</p>
+          <input
+            id="a_size"
+            type="range"
+            min="20"
+            max="150"
+            step="1"
+            value="80"
+          />
+          <input id="s_target" placeholder="Search target" type="number" />
+        </div>
+
+        <div class="header_right">
+          <p class="nav-heading">Sorting visualizer</p>
+
+          <div class="algos">
+            <button class="b1">Bubble</button>
+            <button class="b2">Selection</button>
+            <button class="b3">Insertion</button>
+            <button class="b4">Merge</button>
+            <button class="b5">Quick</button>
+          </div>
+
+          <div class="agen">
+            <button id="a_generate" class="bgen">Generate Array!</button>
+          </div>
+        </div>
+
+        <div class="aspeed">
+          <div class="exchange">
+            <a href="searching.html"
+              ><svg
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path
+                  d="M12 0c6.623 0 12 5.377 12 12s-5.377 12-12 12-12-5.377-12-12 5.377-12 12-12zm0 2c5.519 0 10 4.481 10 10s-4.481 10-10 10-10-4.481-10-10 4.481-10 10-10zm2 12v-3l5 4-5 4v-3h-9v-2h9zm-4-6v-3l-5 4 5 4v-3h9v-2h-9z"
+                />
+              </svg>
+            </a>
+          </div>
+          <p>Speed</p>
+          <input id="a_speed" type="range" min="1" max="5" step="1" value="4" />
+        </div>
+      </div>
+    </header>
+
+    <section class="array_section">
+      <div id="Info_Cont1">
+      </div>
+
+      <div id="array_container"></div>
+
+      <div id="Info_Cont2">
+      </div>
+    </section>
+
+    <script src="./JS/main.js"></script>
+    <script src="./JS/Visualization/visualization.js"></script>
+
+    <script src="./JS/Algorithms/linear_search.js"></script>
+    <script src="./JS/Algorithms/binary_search.js"></script>
+    <script src="./JS/Algorithms/selection_sort.js"></script>
+    <script src="./JS/Algorithms/quick_sort.js"></script>
+    <script src="./JS/Algorithms/merge_sort.js"></script>
+    <script src="./JS/Algorithms/bubble_sort.js"></script>
+    <script src="./JS/Algorithms/insertion_sort.js"></script>
+  </body>
+</html>

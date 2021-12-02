@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 var inp_as = document.getElementById("a_size"),array_size = inp_as.value;
 var inp_gen = document.getElementById("a_generate");
 var inp_aspeed = document.getElementById("a_speed");
 var inp_target = document.getElementById("s_target"),
   array_target = inp_target.value;
+=======
+var inp_as = document.getElementById("a_size"),
+  array_size = inp_as.value;
+var inp_gen = document.getElementById("a_generate");
+var inp_aspeed = document.getElementById("a_speed");
+
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540
 
 var butts_algos = document.querySelectorAll(".algos button");
 
@@ -15,7 +23,10 @@ cont.style = "flex-direction:row";
 
 inp_gen.addEventListener("click", generate_array);
 inp_as.addEventListener("input", update_array_size);
+<<<<<<< HEAD
 inp_target.addEventListener("input", update_target_value);
+=======
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540
 
 function generate_array() {
   cont.innerHTML = "";
@@ -43,10 +54,13 @@ function update_array_size() {
   generate_array();
 }
 
+<<<<<<< HEAD
 function update_target_value() {
   array_target = inp_target.value;
 }
 
+=======
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540
 window.onload = update_array_size();
 
 for (var i = 0; i < butts_algos.length; i++) {
@@ -57,12 +71,19 @@ function disable_buttons() {
   for (var i = 0; i < butts_algos.length; i++) {
     butts_algos[i].classList = [];
     butts_algos[i].classList.add("butt_locked");
+<<<<<<< HEAD
 
+=======
+    butts_algos[i].classList.add(`b${i+1}`);
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540
     butts_algos[i].disabled = true;
     inp_as.disabled = true;
     inp_gen.disabled = true;
     inp_aspeed.disabled = true;
+<<<<<<< HEAD
     inp_target.disabled = true;
+=======
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540
   }
 }
 
@@ -86,6 +107,7 @@ function runalgo() {
     case "Quick":
       Quick();
       break;
+<<<<<<< HEAD
     case "Heap":
       Heap();
       break;
@@ -97,3 +119,13 @@ function runalgo() {
       break;
   }
 }
+=======
+    case "Linear":
+      Linear_search();
+      break;
+    case "Binary":
+      Binary_search();
+      break;
+  }
+}
+>>>>>>> 230101c93ffb651edba91a3d846172b6649ef540
