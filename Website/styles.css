@@ -108,7 +108,18 @@ header .logo {
   mix-blend-mode: multiply;
 }
 
-.main h2 {
+.main .heading h4 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 8vh;
+  z-index: 3;
+  font-size: 7vw;
+  color: #fff;
+  text-shadow: 0 20px 30px rgba(0, 0, 0, 0.6);
+}
+.main .heading h2 {
   position: relative;
   z-index: 3;
   font-size: 12vw;
