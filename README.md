@@ -2,18 +2,19 @@
 
 As the name suggest this is a searching and sorting visualizer tool which will help user to intract and see searching and sorting algorithm's mentioned below
 
-## <img style="margin: 10px" src="https://c.tenor.com/4SwrCQhVuOEAAAAi/future-glasses.gif" height="25" />Searching Algoritms implemented
-
+<summary><h2><img src="https://c.tenor.com/4SwrCQhVuOEAAAAi/future-glasses.gif" align="center"
+                width="28" /> Searching Algoritms implemented</h2></summary>
 <li>Linear Search</li>
 <li>Binary Search</li>
 
-## <img style="margin: 10px" src="https://media2.giphy.com/media/xThuWu82QD3pj4wvEQ/giphy.gif?cid=ecf05e476msvnd04obk359nzwtuopelpx2pzno2s17lnpc1x&rid=giphy.gif&ct=g" height="25" />Sorting Algoritms implemented
+<summary><h2><img src="https://media2.giphy.com/media/xThuWu82QD3pj4wvEQ/giphy.gif?cid=ecf05e476msvnd04obk359nzwtuopelpx2pzno2s17lnpc1x&rid=giphy.gif&ct=g" align="center"
+                width="28" /> Sorting Algoritms implemented</h2></summary>
 
 <li>Insertion Sort</li>
 <li>Merge Sort</li>
 <li>Quick Sort</li>
 
-<summary><h2><img src="https://emojis.slackmojis.com/emojis/images/1471045839/793/computerrage.gif?1471045839" align="center"
+<summary><h2><img src="https://media3.giphy.com/media/4H3Ii5eLChYul9p7NL/200w.webp?cid=ecf05e47xg8wh6okumvskrj9j7ol78erq7ja3xsgfnz5u1mj&rid=200w.webp&ct=g" align="center"
                 width="28" /> Preview</h2></summary>
 <img src="./Icon & SVG/preview.gif">
 
