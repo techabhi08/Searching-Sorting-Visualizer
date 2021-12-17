@@ -2,6 +2,8 @@
 
 As the name suggest this is a searching and sorting visualizer tool which will help user to intract and see searching and sorting algorithm's mentioned below
 
+We have a deployed our website using Firebase, you can visit it using - https://sorting-searching-visualizer.web.app/
+
 <summary><h2><img src="https://c.tenor.com/4SwrCQhVuOEAAAAi/future-glasses.gif" align="center"
                 width="28" /> Searching Algoritms implemented</h2></summary>
 <li>Linear Search</li>
@@ -24,6 +26,7 @@ As the name suggest this is a searching and sorting visualizer tool which will h
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"></code>
 <code><img height="40" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png"></code>
 <code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"></code> 
-<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/github/github-original.svg"></code>
+<code><img height="40" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></code>
+<code><img height="40" src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/firebase/firebase-plain-wordmark.svg"></code>
 <code><img height="40" src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg"></code>
 <br>
